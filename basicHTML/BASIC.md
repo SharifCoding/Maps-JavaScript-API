@@ -2,7 +2,6 @@
 ![Maps JavaScript API](./basicHTML.png)
 
 #### One Google Map HTML File Example
-
 [Source: Google Maps Tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 In this simple example, there are a few things to note:

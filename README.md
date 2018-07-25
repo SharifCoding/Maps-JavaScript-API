@@ -1,5 +1,5 @@
 ## Maps JavaScript API
-![Maps JavaScript API](./basicHTML/basicHTML.png)
+![Maps JavaScript API](./basicREACT/basicREACT.png)
 
 #### Google Map Examples
 - [One HTML File](./basicHTML/BASIC.md)
