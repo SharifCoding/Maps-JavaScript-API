@@ -1,18 +1,21 @@
 ## Maps JavaScript API
-![Maps JavaScript API](./basicREACT.png)
+![Maps JavaScript API](./basicReact.png)
 
 #### Google Map React Example
 [Source: How To Render A Map Component Using ‘react-google-maps’](https://medium.com/@yelstin.fernandes/render-a-map-component-using-react-google-maps-5f7fb3e418bb)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Dependency [react-google-maps](https://github.com/google-map-react/google-map-reac)
+#### Built with
+* [npm](https://www.npmjs.com/) - Node Package Manager
+* [React](https://www.npmjs.com/package/react) - An npm package to get you immediate access to React
+* [React DOM](https://www.npmjs.com/package/react-dom) - This package serves as the entry point of the DOM-related rendering paths
+* [react-google-maps](https://github.com/google-map-react/google-map-react) - Render any React component on the Google Map
 
 #### Initial Setup for `Google Map React`:
-- Create `.env` file in the root `/` folder along side `package.json`
-- Add `GOOGLEMAP_API_KEY` to `.env` file
-```bash
-GOOGLEMAP_API_KEY="your googlemap api key"
+- Add Google API key to `index.html` file in `/public` folder
+```html
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE"></script>
 ```
 #### Running the App:
 To run this project you will need to download it onto your local machine and install all dependencies.

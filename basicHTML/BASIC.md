@@ -10,6 +10,12 @@ In this simple example, there are a few things to note:
 - Define a JavaScript function that creates a map in the `div`.
 - Load the Maps JavaScript API using a `<script>` tag.
 
+#### Initial Setup for `Google Map React`:
+- Add Google API key to `index.html` file in `/public` folder
+```html
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE&callback=initMap"></script>
+```
+
 #### Declaring your application as HTML5
 ```html
 <!DOCTYPE html>
