@@ -2,7 +2,7 @@
 ![Maps JavaScript API](./basicHTML.png)
 
 #### One Google Map HTML File Example
-[Source: Google Maps Tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
+Source: [Google Maps Tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 In this simple example, there are a few things to note:
 - Declare the application as HTML5 using the `<!DOCTYPE html>` declaration.
@@ -10,9 +10,9 @@ In this simple example, there are a few things to note:
 - Define a JavaScript function that creates a map in the `div`.
 - Load the Maps JavaScript API using a `<script>` tag.
 
-#### Initial Setup for `Google Map React`:
-- Add Google API key to `index.html` file in `/public` folder
-```html
+#### Initial Setup:
+- Add Google API key (line 36) to html file
+```js
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE&callback=initMap"></script>
 ```
 
@@ -23,7 +23,7 @@ In this simple example, there are a few things to note:
 Most current browsers will render content that is declared with this DOCTYPE in "standards mode" which means that your application should be more cross-browser compliant. The DOCTYPE is also designed to degrade gracefully; browsers that don't understand it will ignore it, and use "quirks mode" to display their content.
 
 Note that some CSS that works within quirks mode is not valid in standards mode. In specific, all percentage-based sizes must inherit from parent block elements, and if any of those ancestors fail to specify a size, they are assumed to be sized at 0 x 0 pixels.
-```html
+```js
 <style>
   #map {
     height: 100%;
@@ -39,7 +39,7 @@ This CSS declaration indicates that the map container `<div>` (with id map) shou
 
 #### Loading the Maps JavaScript API
 To load the Maps JavaScript API, use a script tag like the one in the following example:
-```html
+```js
 <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 </script>
