@@ -12,6 +12,6 @@ The Maps JavaScript API lets you customize maps with your own content and imager
 To use the Maps JavaScript API, you must register your app project on the Google Cloud Platform Console and get a Google API key which you can add to your app.
 
 #### Further Reading
-[Quick Guide to Getting a Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-[Google Maps Async Initialization](https://www.klaasnotfound.com/2016/11/06/making-google-maps-work-with-react/)
-[Google Maps Autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete)
+- [Quick Guide to Getting a Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+- [Google Maps Async Initialization](https://www.klaasnotfound.com/2016/11/06/making-google-maps-work-with-react/)
+- [Google Maps Autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete)
